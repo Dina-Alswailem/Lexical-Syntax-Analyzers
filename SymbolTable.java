@@ -1,6 +1,5 @@
 // the class create new object of type symbol for every identifier and add it to the array to act as table, the array index is the same as the ID number for the identifier.
 package calculator_lexicalstage;
-
 /**
  *
  * @author bedoo
@@ -19,8 +18,7 @@ public class SymbolTable {
         for (int i = 1; i <= counter; i++){
             System.out.println(symbols[i].toString());
         }
-    }
-    
+    } 
 }
 
 class Symbol{

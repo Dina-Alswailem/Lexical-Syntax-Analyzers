@@ -7,7 +7,8 @@ package calculator_lexicalstage;
  */
 public class Invalid_Identifier_Name_Exception extends Exception{
     
-    private final String roles = "The Identifier name accepts only alphapet (A-Z, a-z), underscore '_', numbers, and can not start with numbers. Please try again.";
+    private final String roles = "The Identifier name accepts only alphapet (A-Z, a-z), underscore '_'"+
+            "numbers, and can not start with numbers. Please try again.";
     
     public Invalid_Identifier_Name_Exception (String str)  
     {  

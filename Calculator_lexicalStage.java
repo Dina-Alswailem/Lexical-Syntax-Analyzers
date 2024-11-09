@@ -55,14 +55,6 @@ public class Calculator_lexicalStage {
     System.out.println("Symbol Table:"); // print symbol table
     SymbolTable.displaySymbolTable();
     
-    // Parsing
-    /*    try {
-            LL1Parser parser = new LL1Parser(lexemes);
-            parser.parse();
-        } catch (Exception e) {
-            System.err.println("Parsing error: " + e.getMessage());
-        }*/
-    
     scanner.close();
     }
 }

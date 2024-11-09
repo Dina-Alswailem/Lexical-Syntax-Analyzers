@@ -1,10 +1,5 @@
 // The class is to create the operator token and specify the operator type.
 package calculator_lexicalstage;
-
-/**
- *
- * @author bedoo
- */
 public class Operator_Token {
     
     private char operatorSign; // save the operator in char type.
